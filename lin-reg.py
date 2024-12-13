@@ -29,10 +29,10 @@ class LinearRegression:
         print(f"Guessed salary for {year} years of experience --> {round(salary[0] / 1000, 2)}k")
 
 if __name__ == "__main__":
-    # Replace <username>, <repo>, and <branch> with your GitHub details
+    
     url = 'https://raw.githubusercontent.com/Agamjot27/<repolinear-regression/main/Salary_dataset.csv'
 
-    # Load dataset directly from GitHub
+    
     data = pd.read_csv(url)
 
     X = data[['YearsExperience']].values  
